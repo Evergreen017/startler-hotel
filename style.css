@@ -219,6 +219,10 @@ iframe {
 #Booking {
   padding-left: 20%;
   margin: auto;
+  visibility: hidden;
+  width: 0;
+  height: 0
+  ;
 }
 
 .booking {
