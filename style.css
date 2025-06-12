@@ -145,7 +145,7 @@ h1 {
   grid-template-rows: auto auto;
   text-align: center;
   gap: 10px 0px;
-  padding-top: 4%;
+  padding-top:3%;
   background-color: white;
   padding-left: 1%;
   box-shadow:
@@ -156,7 +156,7 @@ h1 {
     8px -8px 0 0 rgba(49, 49, 102, 0.2),
     /* top right */
     -8px -8px 0 0 rgba(49, 49, 102, 0.2);
-    padding-top: 10px;
+  
 }
 
 #text {
