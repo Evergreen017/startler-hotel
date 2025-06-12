@@ -6,7 +6,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+.logo img{
+  color: white;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -15,6 +17,7 @@ html {
   color: black;
   padding: 10px;
   text-align: center;
+  background-color: rgb(49, 49, 102);
 }
 
 .leftbar a {
@@ -28,19 +31,17 @@ html {
   height: 10vh;
   padding-left: 20%;
 }
-.leftbar {
-  margin: 20px;
-}
 
 .navbar2 a {
   text-decoration: none;
-  color: rgb(33, 33, 178);
+  padding: 10px;
+  color: white;
 }
 
 .navbar2 a:hover {
   color: white;
   background-color: black;
-  width: 150px;
+  width: 119px;
   text-align: center;
 }
 
@@ -48,7 +49,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+    /* background-color: rgb(49, 49, 102); */
   padding: 10px;
   font-size: 20px;
 }
@@ -74,7 +75,7 @@ html {
 .staler {
   display: flex;
   justify-content: space-around;
-  padding-top: 10%;
+  padding-top: 30px;
 }
 
 .room1 {
@@ -89,51 +90,50 @@ h1 {
   font-size: 30px;
 }
 
-.Rooms {
+.Rooms{
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  align-items: center;
-  text-align: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  padding-left: 6%;
+
+}
+.item{
+  width: 400px;
+  /* margin-left: 40px; */
   background-color: white;
-  gap: 20px 10px;
-  padding-left: 20px;
-  padding-top: 4%;
-  box-shadow: 2px 3px 6px 2px;
-  padding-left: 10%;
+  box-shadow: 2px 3px 4px;
+  padding-top: 10px;
 }
-
-.item img {
-  width: 400px;
-  height: 30vh;
+.text{
+  text-align: center;
+  padding-left: 50px;
 }
+.image img{
+ width: 400px;
 
-.item {
-  width: 400px;
-  padding: 10px;
-  align-items: center;
-  box-shadow: 2px 3px 6px 2px;
+}
+.text{
+  width: 200px;
   
 }
-
-.text {
-  width: 100%;
-}
-
 .gallery {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
   text-align: center;
-  gap: 30px 10px;
+  gap: 10px 0px;
   padding-top: 4%;
   background-color: white;
   padding-left: 1%;
   box-shadow: 2px 3px 6px 2px;
 }
-
+#text{
+  /* width: 80px; */
+  /* padding-left: 90px; */
+}
 .item1 img {
-  width: 90%;
+  /* width: 90%; */
   height: 30vh;
 }
 
@@ -163,25 +163,28 @@ h1 {
 }
 
 .magg {
-  height: 20vh;
+  width: 300px;
+  padding-left: 3%;
 }
 
 .promotions {
   display: flex;
-  padding-left: 4%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
   padding-top: 5%;
   text-align: center;
   box-shadow: 2px 3px 6px 2px;
 }
 
 .item6 img {
-  width: 400px;
+  width: 350px;
   height: 30vh;
 }
 
 .item6 {
   padding: 20px;
-  padding-left: 10%;
+  /* padding-left: 10%; */
 }
 
 #Award img {
@@ -191,11 +194,12 @@ h1 {
 }
 
 #Award {
-  padding-left: 10%;
+  padding-left: 50px
 }
 
 iframe {
   height: 50vh;
+  /* width: 200px; */
 }
 
 .contact {
@@ -220,10 +224,10 @@ iframe {
 .booking {
   width: 40%;
   box-shadow: 2px 3px 6px 2px;
-  padding-left: 2%;
+  /* padding-left: 2%; */
   padding-bottom: 3%;
   border-radius: 3%;
-    padding-left: 10%;
+    /* padding-left: 10%; */
 
 }
 
@@ -293,7 +297,7 @@ iframe {
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(4, 4, 5);
+  background-color: rgb(49, 49, 102);
   color: white;
 }
 .icon a{
@@ -314,7 +318,9 @@ iframe {
     display: block;
     flex-direction: column;
   }
-
+  .logo img{
+    padding-left: 2%;
+  }
   .navbar2 {
     display: grid;
     flex-direction: column;
@@ -325,30 +331,22 @@ iframe {
   .navbar2 a {
     color: white;
   }
-  #Rooms{
-    
-  
-  }
+
   .Rooms {
     display: block;
-    width: 90%;
+    flex-direction: column;
+    width:
+   
 
   }
 
   .item img {
-    width: 99%;
-    padding-right: 14%;
+    width: 99%
+
   }
 
   .text {
-    text-align: center;
-    width: 90%;
-  }
-
-  .item {
-    width: 90%;
-    padding-right: 0%;
-  
+    
   }
 
   .it img {
@@ -356,25 +354,38 @@ iframe {
   }
 
   #text {
-    width: 100%;
+
   }
 
   .attractions {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: block;
+    height: auto;
+   
   }
 
   .promotions {
     display: block;
     padding-right: 4%;
   }
-
+  .gallery{
+    display: block;
+    text-align: center;
+  
+  }
+  .it img{
+    height: 200px;
+    width: auto;
+    align-items: center;
+  }
   .item6 img {
     width: 98%;
   }
+  .it{
+    height: auto;
+  }
 
   #Award {
-    margin-left: 3%;
+    align-items: center;
   }
 
   .contact {
@@ -401,47 +412,100 @@ iframe {
   #date { 
     width: 100%;
   }
+  .footer{
+    display: grid;
+  }
+  .text p{
+    padding-bottom: 2%;
+  }
 }
 /* Responsiveness for Tablet */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 .top{
   padding-top: 40%;
 }
-  .Rooms {
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+  Rooms {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
     align-items: center;
     text-align: center;
     gap: 20px 10px;
-    padding-left: 0px;
     padding-top: 4%;
     box-shadow: 2px 3px 6px 2px;
   }
 
-
+  .item {
+  /* width: 400px; */
+  padding-right: 10px;
+  margin: 20px 0;
+  align-items: center;
+  box-shadow: 2px 3px 6px 2px;
+  }
+  
   .item img {
     width: 350px;
     height: 200px;
   }
-
+  .gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+  
+  }
+  .it img{
+   width: 98%;
+  }
+  
+  #text{
+    width: 80%;
+    padding-left: 6%;
+  }
   .item {
     width: 390px;
     padding: 10px;
     align-items: center;
     box-shadow: 2px 3px 6px 2px;
+    margin-left: 6%;
+  
   
   }
-
-  .text {
+  .image img{
     width: 100%;
-    
   }
 
+
+  
+    /* display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  padding-left: 1%;
+  padding-top: 4%;
+  text-align: center;
+  box-shadow: 2px 3px 6px 2px;
+} */
+
+.attract img {
+  width: 90%;
+  height: 30vh;
+}
+
+.magg {
+  width: 80%;
+  padding-left: 3%;
+}
+
+  #attract{
+    display: grid; 
+
+  }
   .promotions {
-    display: grid;
-    flex-wrap: wrap;
-    padding-right: 10%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* padding-right: 10%; */
   }
   .item6 img{
     width: 100%;
@@ -453,7 +517,7 @@ iframe {
     height: 40vh;
   }
   iframe{
-    width: 116%;
+    /* width: 116%; */
     height: 40vh;
   }
     .booking {
