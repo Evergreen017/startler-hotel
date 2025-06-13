@@ -126,7 +126,8 @@ h1 {
 
 .text {
   text-align: center;
-  padding-left: 50px;
+
+  /* padding-left: 50px; */
 }
 
 .image img {
@@ -355,7 +356,8 @@ iframe {
   justify-content: space-around;
   background-color: rgb(49, 49, 102);
   color: white;
-  overflow: hidden;
+  /* overflow: hidden; */
+  text-align: center;
 }
 
 .icon a {
@@ -363,12 +365,17 @@ iframe {
 }
 
 .about {
-  width: 300px;
+  width: 400px;
+  padding-top: 2%;
   text-align: center;
 }
-
+.text{
+  width: 400px;
+  padding-top: 2%;
+  /* margin-right: 8%; */
+}
 .com {
-  text-align: center;
+  /* text-align: center; */
   padding-top: 2%;
 }
 
@@ -390,10 +397,16 @@ iframe {
     text-align: center;
   }
 
-  .navbar2 a {
+.navbar2 a {
     color: white;
   }
-
+  .staler{
+    display: block;
+    text-align: center;
+  }
+  #Rooms{
+    padding-top: 9%;
+  }
   .Rooms {
     display: block;
     flex-direction: column;
@@ -404,11 +417,14 @@ iframe {
   }
 
   .item {
-    width: 96%;
+    width: 94%;
     /* margin-left: 40px; */
     background-color: white;
     box-shadow: 2px 3px 4px;
-    padding: 1px;
+    padding: 6%;
+  }
+  .text{
+    width: 94%;
   }
 
   .it img {
@@ -420,7 +436,10 @@ iframe {
   .attractions {
     display: block;
     height: auto;
-
+    /* padding-top: 10%; */
+  }
+  #attractions{
+    padding-top: 8%;
   }
 
   .promotions {
@@ -480,11 +499,25 @@ iframe {
 
   .footer {
     display: grid;
-  }
+    flex-direction: column;
 
-  .text p {
-    padding-bottom: 2%;
   }
+  .about {
+  /* width: 0%; */
+  
+}
+
+/* .com {
+  text-align: center;
+  padding-top: 2%;
+} */
+    
+ 
+  /* .text p {
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
+  } */
 }
 
 /* Responsiveness for Tablet */
