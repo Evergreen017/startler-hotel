@@ -177,7 +177,7 @@ h1 {
 }
 
 .attract img {
-  width: 450px;
+  width: 300px;
   height: 30vh;
 }
 
@@ -188,7 +188,7 @@ h1 {
   
 }
 .attract{
-  width: 500px;
+  width: 400px;
   background-color:white;
   box-shadow:
     8px 8px 0 0 rgba(49, 49, 102, 0.2),
